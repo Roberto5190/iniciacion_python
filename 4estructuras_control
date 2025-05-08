@@ -1,0 +1,58 @@
+# CONDICIONALES
+def estructuras_condicionales():
+    print("=== Estructuras Condicionales ===")
+    
+    # Ejemplo de if
+    print("if")
+    edad = 20
+    if edad >= 18:
+        print("Eres mayor de edad.")
+
+
+
+    # Ejemplo de if-else
+    print("\nif-else")
+    numero = -5
+    if numero >= 0:
+        print(f"{numero} es un número positivo.")
+    else:
+        print(f"{numero} es un número negativo.")
+
+
+    # Ejemplo de if-elif-else
+    print("\nif-elif-else")
+    calificacion = 85
+    if calificacion >= 90:
+        print("Aprobado con distinción.")
+    elif calificacion >= 70:
+        print("Aprobado.")
+    else:
+        print("Reprobado.")
+
+
+# BUCLES
+def bucles():
+    print("\n=== Bucles ===")
+    
+    # Ejemplo de bucle for
+    print("FOR")
+    print("Contando del 1 al 5 usando for:")
+    for i in range(1, 6):
+        print(i)
+    
+    # Ejemplo de bucle while
+    print("\nWHILE")
+    print("Contando del 1 al 5 usando while:")
+    contador = 1
+    while contador <= 5:
+        print(contador)
+        contador += 1
+
+
+def main():
+    estructuras_condicionales()
+    bucles()
+
+# Ejecutamos el programa principal
+if __name__ == "__main__":
+    main()
