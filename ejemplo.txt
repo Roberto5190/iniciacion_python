@@ -1,0 +1,2 @@
+Hola, este es un archivo de ejemplo.
+Python es muy útil para interactuar con el sistema operativo.

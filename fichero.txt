@@ -1,0 +1,2 @@
+Este es un fichero .txt
+Archivo de prueba para el ejercicio.
